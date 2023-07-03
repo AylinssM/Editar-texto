@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO TEXTO</title>
+    <style>
+        body{
+            margin: 0;
+            
+        }
+        ul {
+            /* METEMOS UNA IMAGEN COMO SIMBOLO */
+            /* list-style-image: url('/mariquita.webp'); */
+            margin: 0;
+        }
+
+        .menu {
+            /* QUITAMOS LA NUMERACION O EL SIMBOLO */
+            list-style-type: none;
+        }
+
+        .itemsMenuHorizontal {
+            /* CONVERTIMOS ELEMENTOS EN BLOQUE PARA COMPORTARSE EN LINEA */
+            /* DE ESTE MODO CONSEGUIMOS TENERLOS EN HORIZONTAL JUNTOS */
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+        <h1>EJERCICIO 1 TEXTO RESUELTO</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui numquam vel dolores amet optio, molestias est,
+            quam, voluptas nemo officiis nostrum! Totam eos labore quidem molestiae facilis recusandae nisi deserunt ut
+            animi repudiandae, odio dolores dolore hic tempora omnis quasi ea temporibus cumque delectus? Iure
+            voluptatum beatae omnis quaerat praesentium maiores quae neque, animi, sit quo debitis exercitationem
+            repellat sed consequatur at distinctio libero. Labore minima nostrum iste eaque placeat, corrupti provident
+            nam quis distinctio aperiam tempore, commodi dolore eveniet. Aperiam ab dolor minima blanditiis, porro sint,
+            neque quasi praesentium exercitationem dignissimos iure necessitatibus amet voluptatibus dolorem
+            reprehenderit! Culpa, qui.</p>
+    </header>
+    <main>
+    <div id="textoEjercicio">
+        <div id="seccionAlta">
+            <h2>Learn HTML</h2>
+            <p>This HTML course for web developers provides a solid overview for developers, from novice to expert level
+                HTML.</p>
+            <hr>
+            <p>Ir a mi la web de: <a href="https://www.google.es/" target="_self">Google!</a> Es el navegador más usado
+                del mundo!</p>
+            <hr>
+        </div>
+        <div id="seccionMedia">
+            <h3>Welcome to Learn HTML! </h3>
+            <p>Welcome to HTML! HyperText Markup Language, or HTML, is the backbone of the web, providing the content,
+                as well as the structure of that content, that you see displayed in your web browser.</p>
+            <p>Unless you're reading a PDF or a printed version of this page, this content is made up of various HTML
+                elements and text. HTML is the content layer of the web. HTML elements are the nodes that make up the <a
+                    href="https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model">Document Object
+                    Model.</a></p>
+            <p><a href="https://web.dev/learn/css/">Cascading Style Sheets</a> <span> provide the look and feel, or
+                    presentation layer of the page. </span><a
+                    href="https://developer.mozilla.org/es/docs/Learn/JavaScript">JavaScript</a> is the behavior layer,
+                often used to manipulate the objects within a document. Sites that are built with JavaScript frameworks
+                are really just manipulating HTML. In turn, it's important to mark up your HTML in a way that scripts
+                can easily parse and that assistive technologies can easily understand. This means writing HTML code
+                with modern standards.</p>
+        </div>
+        <div id="seccionBaja">
+            <h3>Overview</h3>
+            <p>This HTML course for web developers provides a solid overview for developers, from novice to expert level
+                HTML. If you're completely new to HTML, you will learn how to build structurally sound content. If
+                you've been building websites for years, this course may fill in gaps in knowledge that you didn't even
+                know you had.</p>
+            <p>Along this journey, we will be building the structure for <a
+                    href="https://machinelearningworkshop.com/">MachineLearningWorkshop.com</a>. No machines were
+                harmed in the creation of this series.</p>
+            <p>This is not a complete reference. Each section introduces the section topic with brief explanations and
+                examples, providing you an opportunity to explore further. There will be links to topic references, such
+                as <a href="https://developer.mozilla.org/es/">MDN</a> and <a
+                    href="https://html.spec.whatwg.org/multipage/">WHATWG</a> specifications, and other <a
+                    href="https://web.dev/learn/">web.dev</a> articles. While this is not an accessibility course,
+                each section will include accessibility best practices and specific issues, with links to deeper dives
+                on the topic. Each section will have a short assessment to help people confirm their understanding.</p>
+        </div>
+
+    </div>
+    <!-- <h4>LISTA ORDENADA</h4>
+    <ol start="22" reversed type="1" compact>
+        <li>Elemento numero 1</li>
+        <li>Elemento numero 2</li>
+        <li>Elemento numero 3</li>
+        <li>Elemento numero 4</li>
+        <li>Elemento numero 5</li>
+        <li>Elemento numero 6</li>
+        <li>Elemento numero 7</li>
+        <li>Elemento numero 8</li>
+    </ol>
+    <h4>LISTA DESORDENADA</h4>
+    <ul>
+        <li>Item desordenado número 1</li>
+        <li>Item desordenado número 2</li>
+        <li>Item desordenado número 3</li>
+        <li>Item desordenado número 4</li>
+        <li>Item desordenado número 5</li>
+        <li>Item desordenado número 6</li>
+    </ul> -->
+</main>
+<footer>
+    <!-- <h4>LISTA DESORDENADA - MENU HORIZONTAL</h4>
+    <ul class="menu">
+        <li class="itemsMenuHorizontal">MENU 1</li>
+        <li class="itemsMenuHorizontal">MENU 2</li>
+        <li class="itemsMenuHorizontal">MENU 3</li>
+        <li class="itemsMenuHorizontal">MENU 4</li>
+        <li class="itemsMenuHorizontal">MENU 5</li>
+    </ul>
+    <h4>LISTA DESORDENADA - MENU VERTICAL</h4>
+    <ul class="menu">
+        <li class="itemsMenuVertical">MENU 1</li>
+        <li class="itemsMenuVertical">MENU 2</li>
+        <li class="itemsMenuVertical">MENU 3</li>
+        <li class="itemsMenuVertical">MENU 4</li>
+        <li class="itemsMenuVertical">MENU 5</li>
+    </ul> -->
+</footer>
+
+
+</body>
+
+</html>
